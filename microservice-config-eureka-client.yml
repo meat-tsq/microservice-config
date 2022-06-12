@@ -12,9 +12,9 @@ spring:
   application:
     name: microservice-config-eureka-client
 
-eureka: eurka7001.com
+eureka: 
   instance: 
-    hostname: 
+    hostname: eurka7001.com
     register-with-eureka: false
     fetch-registry: false
     service-url:

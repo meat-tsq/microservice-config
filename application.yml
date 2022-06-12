@@ -1,0 +1,18 @@
+spring: 
+  profiles:
+    active:
+      - dev
+
+---
+spring:
+  profiles: dev #开发环境
+  application:
+    name: microservice-config-meta-dev
+
+---
+spring:
+  profiles: test #测试环境
+  application:
+    name: microservice-config-meta-test
+
+#保存格式设置为UTF-8
